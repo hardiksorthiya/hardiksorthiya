@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Viscoomerce</title>
+
+</head>
+<body>
+
+<section class="main-bg">   
+    <div class="container">
+        <div class="bg-main-2">
+            <div class="row">
+               
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-12 col-sm-12">
+                        <div class="main-left-bg">
+                            <img class="image-bg" src="images/img-1.jpg">
+                            <a href="#" class="img-reset">
+                                <span class="reset position-absolute text-white"><i class="fa-solid fa-rotate-left"></i>Reset</span>
+                                                                  </a>
+                         </div> 
+                     </div>
+                    
+                 
+                        
+                        <!-- ============================================================================ -->
+    
+                 <div class="col-xl-4 col-lg-4 col-md-12 col-12 col-sm-12 two-size">
+                         <div class="main-right">
+                             <h3 class="right-head">Interior Lighting Demo</h3>
+                         </div>
+                                                
+                    <!-- ============================================================================ -->
+
+
+                    <div class="accordion" id="test">
+                        <div class="accordion-item">
+                                <h6  onclick='console.log("Lighting Drop Down activated")' class="right-sub accordion-button"data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"> Lighting 
+                                    <div> <i class="fa-solid fa-angles-down"></i></div>
+                                </h6>
+                            </div>
+
+
+
+
+<!-- ===============================view section============================================ -->
+
+
+
+                            <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div  class="accordion-body">
+
+                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                        <li   class="nav-item" role="presentation">
+                                        <button onclick="console.log('Lighting First view activated')" class="nav-link active" id="test" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true" >View 1</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                        <button onclick="console.log('tabLighting First view activated')" class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">View 2</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                        <button onclick="console.log('Lighting First view activated')" class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">View 3</button>
+                                        </li>
+                                    </ul>
+
+  <!-- ==============intensity and color=================== -->
+
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col">intensity</th>
+                                                <th scope="col">color</th>
+                                                <th scope="col" ></th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <!-- ==========wall lamp light(L) view 1=========== -->
+                                            <tr class="first-tr">
+                                                <td scope="row">Wall Lamp Light (L)</td>
+                                                <td onclick="console.log('Choose Color from colour Picker')" class="checkbox"><input type="checkbox" class="boxc"></td>
+                                                <td onclick="console.log('Adjust Intensity of lighting parameter')"class="checkbox"><input type="checkbox" class="boxc"></td>
+                                                <td class="on-off-but">
+                                                    
+                                                        <div onclick="console.log('Switch ON/OFF Button')"class="button b2" id="button-18">
+                                                            <input type="checkbox" class="checkbox" />
+                                                            <div class="knobs">
+                                                            <span></span>
+                                                            </div>
+                                                            <div class="layer"></div>
+                                                        </div>
+                                                
+                                                </td>
+                                            </tr>
+                                            <!-- =============wall lamp light(R) view 1============= -->
+                                            <tr>
+                                                <td scope="row">Wall Lamp Light (R)</td>
+                                                <td onclick='console.log("Choose Color from colour Picker")' class="checkbox"><input type="checkbox" class="boxc"></td>
+                                                <td onclick='console.log("Adjust Intensity of lighting parameter")' class="checkbox"><input type="checkbox" class="boxc"></td>
+                                                <td class="on-off-but">
+                                                    
+                                                        <div onclick="console.log('Switch ON/OFF Button')" class="button b2" id="button-18">
+                                                            <input type="checkbox" class="checkbox" />
+                                                            <div class="knobs">
+                                                            <span></span>
+                                                            </div>
+                                                            <div class="layer"></div>
+                                                        </div>
+                                                
+                                                </td>
+                                            </tr>
+                                            <!-- =============Celling light view 1================== -->
+                                            <tr>
+                                                <td scope="row">Ceiling Light</td>
+                                                <td onclick='console.log("Choose Color from colour Picker")' class="checkbox"><input type="checkbox" class="boxc"></td>
+                                                <td onclick='console.log("Adjust Intensity of lighting parameter")'class="checkbox"><input type="checkbox" class="boxc"></td>
+                                                <td class="on-off-but">
+                                                    
+                                                        <div onclick='console.log("Switch ON/OFF Button")' class="button b2" id="button-18">
+                                                            <input type="checkbox" class="checkbox" />
+                                                            <div class="knobs">
+                                                            <span></span>
+                                                            </div>
+                                                            <div class="layer"></div>
+                                                        </div>
+                                                
+                                                </td>
+                                            </tr>
+                                            <!-- ==================Chandelier view 1=============================== -->
+                                            <tr>
+                                                <td scope="row">Chandelier</td>
+                                                <td onclick='console.log("Choose Color from colour Picker")'class="checkbox"><input type="checkbox" class="boxc"></td>
+                                                <td onclick='console.log("Adjust Intensity of lighting parameter")' class="checkbox"><input type="checkbox" class="boxc"></td>
+                                                <td class="on-off-but">
+                                                    
+                                                        <div onclick='console.log("Switch ON/OFF Button")' class="button b2" id="button-18">
+                                                            <input type="checkbox" class="checkbox" />
+                                                            <div class="knobs">
+                                                            <span></span>
+                                                            </div>
+                                                            <div class="layer"></div>
+                                                        </div>
+                                                
+                                                </td>
+                                            </tr>
+                                            <!-- =======================Decoration Light view 1=============================== -->
+                                            <tr>
+                                                <td scope="row">Decoration Lights</td>
+                                                <td onclick='console.log("Choose Color from colour Picker")' class="checkbox"><input type="checkbox" class="boxc"></td>
+                                                <td onclick='console.log("Adjust Intensity of lighting parameter")' class="checkbox"><input type="checkbox" class="boxc"></td>
+                                                <td class="on-off-but">
+                                                    
+                                                        <div onclick='console.log("Switch ON/OFF Button")' class="button b2" id="button-18">
+                                                            <input type="checkbox" class="checkbox" />
+                                                            <div class="knobs">
+                                                            <span></span>
+                                                            </div>
+                                                            <div class="layer"></div>
+                                                        </div>
+                                                
+                                                </td>
+                                            </tr>
+                                            <!-- =================Cabinet light view 1====================== -->
+                                            <tr>
+                                                <td scope="row">Cabinet Lights</td>
+                                                <td onclick='console.log("Choose Color from colour Picker")' class="checkbox"><input type="checkbox" class="boxc"></td>
+                                                <td onclick='console.log("Adjust Intensity of lighting parameter")' class="checkbox"><input type="checkbox" class="boxc"></td>
+                                                <td class="on-off-but">
+                                                    
+                                                        <div onclick='console.log("Switch ON/OFF Button")' class="button b2" id="button-18">
+                                                            <input type="checkbox" class="checkbox" />
+                                                            <div class="knobs">
+                                                            <span></span>
+                                                            </div>
+                                                            <div class="layer"></div>
+                                                        </div>
+                                                
+                                                </td>
+                                            </tr>
+                                            <!-- =================All light view 1==================== -->
+                                            <tr>
+                                                <td scope="row">All Lights</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td class="on-off-but">
+                                                    
+                                                <div onclick='console.log("ON/OFF Button")' class="button b2" id="button-18">
+                                                    <input type="checkbox" class="checkbox" />
+                                                    <div class="knobs">
+                                                    <span></span>
+                                                    </div>
+                                                    <div class="layer"></div>
+                                                </div>
+                                            
+                                        </td>
+                                            
+                                            </tr>
+                                    
+                                            
+                                            </tbody>
+                                    </table>   
+                                    </div>
+
+                                    <!-- ==========Intensity and color view 2============= -->
+
+
+                                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"> 
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col">intensity</th>
+                                                <th scope="col">color</th>
+                                                <th scope="col"></th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <!-- =========Ceiling light view 2============ -->
+                                            <tr class="first-tr">
+                                                <td scope="row">Ceiling Light</td>
+                                                <td onclick='console.log("Choose Color from colour Picker")' class="checkbox"><input type="checkbox" class="boxc"></td>
+                                                <td onclick='console.log("Checkbox")' class="checkbox"><input type="checkbox" class="boxc"></td>
+                                                <td class="on-off-but">
+                                                    
+                                                        <div onclick='console.log("ON/OFF Button")' class="button b2" id="button-18">
+                                                            <input type="checkbox" class="checkbox" />
+                                                            <div class="knobs">
+                                                            <span></span>
+                                                            </div>
+                                                            <div class="layer"></div>
+                                                        </div>
+                                                
+                                                </td>
+                                            </tr>
+                                            
+                                            <!-- ===========Cabinet view 2=============== -->
+                                            <tr>
+                                                <td scope="row">Cabinet Light</td>
+                                                <td onclick='console.log("Choose Color from colour Picker")' class="checkbox"><input type="checkbox" class="boxc"></td>
+                                                <td onclick='console.log("Checkbox")' class="checkbox"><input type="checkbox" class="boxc"></td>
+                                                <td class="on-off-but">
+                                                    
+                                                        <div onclick='console.log("ON/OFF Button")' class="button b2" id="button-18">
+                                                            <input type="checkbox" class="checkbox" />
+                                                            <div class="knobs">
+                                                            <span></span>
+                                                            </div>
+                                                            <div class="layer"></div>
+                                                        </div>
+                                                
+                                                </td>
+                                            </tr>
+                                            
+                                            <!-- =================All Light view 2==================== -->
+
+                                            <tr>
+                                                <td scope="row">All Lights</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td class="on-off-but">
+                                                    
+                                                <div onclick='console.log("ON/OFF Button")' class="button b2" id="button-18">
+                                                    <input type="checkbox" class="checkbox" />
+                                                    <div class="knobs">
+                                                    <span></span>
+                                                    </div>
+                                                    <div class="layer"></div>
+                                                </div>
+                                            
+                                        </td>
+                                            
+                                            </tr>
+
+                                            
+                                            </tbody>
+                                    </table>
+                                    </div>
+<!--==========================View 3 ===================================== -->
+         
+                                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th scope="col"></th>
+                                                <th scope="col">intensity</th>
+                                                <th scope="col">color</th>
+                                                <th scope="col"></th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                                <!-- ==========Wall lamp Light View 3=========== -->
+                                                <tr class="first-tr">
+                                                    <td scope="row">Wall Lamp Light (L)</td>
+                                                    <td class="checkbox"><input type="checkbox" class="boxc"></td>
+                                                    <td class="checkbox"><input type="checkbox" class="boxc"></td>
+                                                    <td class="on-off-but">
+                                                        
+                                                            <div class="button b2" id="button-18">
+                                                                <input type="checkbox" class="checkbox" />
+                                                                <div class="knobs">
+                                                                <span></span>
+                                                                </div>
+                                                                <div class="layer"></div>
+                                                            </div>
+                                                    
+                                                    </td>
+                                                </tr>
+                                                <!-- ============Decoration Light View 3============== -->
+                                                <tr>
+                                                    <td scope="row">Decoration Light</td>
+                                                    <td class="checkbox"><input type="checkbox" class="boxc"></td>
+                                                    <td class="checkbox"><input type="checkbox" class="boxc"></td>
+                                                    <td class="on-off-but">
+                                                        
+                                                            <div class="button b2" id="button-18">
+                                                                <input type="checkbox" class="checkbox" />
+                                                                <div class="knobs">
+                                                                <span></span>
+                                                                </div>
+                                                                <div class="layer"></div>
+                                                            </div>
+                                                    
+                                                    </td>
+                                                </tr>
+                                                
+                                                <!-- ================All Light View 3==================== -->
+                                                <tr>
+                                                    <td scope="row">All Lights</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td class="on-off-but">
+                                                        
+                                                    <div class="button b2" id="button-18">
+                                                        <input type="checkbox" class="checkbox" />
+                                                        <div class="knobs">
+                                                        <span></span>
+                                                        </div>
+                                                        <div class="layer"></div>
+                                                    </div>
+                                                
+                                            </td>
+                                                
+                                                </tr>
+                                                
+                                                
+                                                </tbody>
+                                        </table>
+                                           
+                                    </table>    
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                            
+
+<!-- ==================================================Environment================================================================ -->
+
+                        <div class="accordion-item">
+                            <h6 onclick='console.log("Environment Drop Down activated")' class="right-sub accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Environment 
+                                <div> <i class="fa-solid fa-angles-down"></i></div>
+                            </h6>
+
+                        </div>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body two ">
+                                    <div class="inner-sec d-flex  align-items-center justify-content-between py-2" >
+                                      
+                                            <h6>Environment</h6>
+                                            <select onclick='console.log("Selectab")' name="bulb" id="select-2">
+                                              <option value="400 lx (Sunrise/...)">  Venice Sunset</option>
+                                              <option value="400 lx (Sunrise/...)">Venice Sunset</option>
+                                              <option value="400 lx (Sunrise/...)">Lythwood Room</option>
+                                              <option value="400 lx (Sunrise/...)">Small Cathedral</option>
+                                              <option value="400 lx (Sunrise/...)">Chirtsmas Photho Studio</option>
+                                              <option value="400 lx (Sunrise/...)">Lebombo</option>
+                                              <option value="400 lx (Sunrise/...)">None</option>
+                                            
+                                             
+                                            </select>
+                                            
+                                        
+                                    </div>
+                                    <div class="inner-sec d-flex  align-items-center justify-content-between py-2">
+                                      
+                                        <h6>Intensity</h6>
+                                        <div onclick='console.log("Show rang of intensity")'class="range">
+                                            <input type="range" id="vol" name="vol" min="0" max="50">
+                                        </div>    
+                                    </div>
+                            </div>
+                        </div>
+
+
+                    <!-- =========================================Visual Effects=================================================== -->
+
+
+
+                        <div class="accordion-item">
+                            <h6 onclick='console.log("Visual Effect Drop Down activated")' class="right-sub accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Visual Effects   
+                                <div> <i class="fa-solid fa-angles-down"></i></div>
+                            </h6>
+
+                        
+                        </div>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body three">
+                              <div class="inner-sec d-flex  align-items-center justify-content-between" >
+                                      
+                                <h6>Shadows</h6>
+                                <div onclick='console.log("Checkbox For Shadows")' class="checkbox"><input type="checkbox" class="boxc"></div>
+                             </div>
+                        <div class="inner-sec d-flex  align-items-center justify-content-between">
+
+                            <h6>Reflection</h6>
+                            <div onclick='console.log("Checkbox for Reflection")' class="checkbox"><input type="checkbox" class="boxc"></div>  
+                        </div>
+                            </div>
+                        </div>
+
+
+                    <!-- ==========================Smart Lighting======================================== -->
+
+                        <div class="accordion-item">
+                            <h6  onclick='console.log("Smart Lighting Drop Down activated")' class="right-sub accordion-button "data-bs-toggle="collapse" data-bs-target="#collapsefour"  aria-expanded="false" aria-controls="collapsefour"> Smart Lighting  
+                                <div> <i class="fa-solid fa-angles-down"></i></div>
+                            </h6>
+                        
+                        </div>  
+                        <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body four">
+                              <div class="last-sec-2">
+                                <div  onclick='console.log("Checkbox for Chandelier")'  class="checkbox"><input type="checkbox" class="boxc"></div>
+                                <p class="last-title">Chandelier</p>
+                              </div>
+                              <!-- ======================= -->
+                              <div  onclick='console.log("Select luminious for Bulb power")' class="inner-sec d-flex  align-items-center justify-content-between" >
+
+                                <p class="last-title">Bulb Power</p>
+                                <select name="bulb" id="select-2">
+                                  <option value="400 lx (Sunrise/...)">  400 lm (40W)</option>
+                                  <option value="400 lx (Sunrise/...)">110000 lm (1000W)</option>
+                                  <option value="400 lx (Sunrise/...)">3500 lm (300W)</option>
+                                  <option value="400 lx (Sunrise/...)">1700 lm (100W)</option>
+                                  <option value="400 lx (Sunrise/...)">800 lm (60W)</option>
+                                  <option value="400 lx (Sunrise/...)">400 lm (40W)</option>
+                                  <option value="400 lx (Sunrise/...)">180 lm (25W)</option>
+                                  <option value="400 lx (Sunrise/...)">OFF</option>
+                                 
+                                </select>
+                              
+                            
+                              </div>
+
+                              <!-- ============================= -->
+
+                              <div onclick='console.log("Select Environment")' class="inner-sec d-flex  align-items-center justify-content-between" >
+
+                                <p class="last-title">Environment</p>
+                                <select name="bulb" id="select-2">
+                                  <option value="400 lx (Sunrise/...)">400 lx (Sunrise/...)</option>
+                                  <option value="400 lx (Sunrise/...)">0.0001 lx (Moonless Night)</option>
+                                  <option value="400 lx (Sunrise/...)">0.002 lx (Night Airglow)</option>
+                                  <option value="400 lx (Sunrise/...)">0.5 lx (Full Moon)</option>
+                                  <option value="400 lx (Sunrise/...)">3.4 lx (Moonless Night)</option>
+                                  <option value="400 lx (Sunrise/...)">3.4 lx (City Twilight)</option>
+                                  <option value="400 lx (Sunrise/...)">50 lx (Living Room)</option>
+                                  <option value="400 lx (Sunrise/...)">100 lx (Very Overcast)</option>
+                                  <option value="400 lx (Sunrise/...)">350 lx (Office Room)</option>
+                                  <option value="400 lx (Sunrise/...)">400 lx (Sunrise/Sunset)</option>
+                                  <option value="400 lx (Sunrise/...)">1000 lx (Overcast)</option>
+                                  <option value="400 lx (Sunrise/...)">18000 lx (Daylight)</option>
+                                  <option value="400 lx (Sunrise/...)">50000 lx (Direct Sun)</option>
+                                </select>
+                                
+                            
+                              </div>
+                              <!-- ================= -->
+                             
+                                <a onclick='console.log("Button press for Lighting Guid ")' href="#" class="button-last">
+                                  <span class="last-btn text-white">Lighting Guidlines</span>
+                              </a>
+                             
+                            
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- ================================================================== -->
+                </div>
+            </div>
+         </div>
+     </div>
+</section>
+
+
+
+
+
+
+
+
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    
+    
+</body>
+</html>
