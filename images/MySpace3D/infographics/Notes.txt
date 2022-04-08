@@ -1,0 +1,22 @@
+Step 1 - Shoot pictures of Space with smartphone
+	(Details - Space could be residential or commercial. For e.g a Living Room, Bed Room, Kitchen, Dentist Office or Retail Store)
+
+Step 2 - Upload pictures to VisCommerce Cloud
+	(Details - Pictures will be stored in secure vault, conforming to privacy standards such as GDPR )
+
+
+Step 3 - Download MySpace3D App
+	(Details - MySpace3D App contains scale-accurate 3D model reconstructed from uploaded pictures using AI & 3D technology)
+
+
+Step 4 - Download 3D models from Store3D
+	(Details - Download scale accurate 3D models of furniture, lights, plants etc that can be added to MySpace3D)
+
+
+Step 5 - Develop Interiors to your liking
+	-Furniture, Lights, Paints, Flooring, Plants (under small circles)
+	(Details - Furniture could be sofas, tables, chairs, beds, cabinets etc
+		   Lighting could be Floor lamps, Wall Lamps, Chandeliers etc. Live lighting with controls for on/off, intensity, color controls
+		   Plants - Bring life and beauty using plants of your choice. e.g Potted plants
+		   Paints - Use colors, textures and stencils to your liking
+		   Flooring - Use granite, marble, wood or carpet flooring )
