@@ -424,7 +424,7 @@ h3.new-h3 {
             <!-- <div class="slide-nav-3 w-slider-nav w-round"></div> -->
           <!-- </div>
         </div> -->
-        <div class="new-img-mo"><img src="images/webp/Rectangle-12-demo.png" alt="mobile"></div>
+        <div class="new-img-mo"><img src="images/webp/Rectangle-13-demo.png" alt="mobile"></div>
         <div class="new-img-re"><img src="images/webp/Rectangle-12-demo.png" alt="render"></div>
       </div>
 
