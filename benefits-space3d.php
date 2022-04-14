@@ -41,6 +41,7 @@
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link href="css/viscommerce_2.css" rel="stylesheet" type="text/css">
     <link href="css/viscommerce_1.css" rel="stylesheet" type="text/css">
+    <link href="css/all.min.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
@@ -105,7 +106,9 @@
   font-size:24px !important;
   color:#fff !important;
 }
-
+.check-marks {
+    align-items: center !important;
+}
 
 .section-benefits-14,.section-benefits-15,.section-benefits-16
     {
@@ -234,9 +237,12 @@ h3.change-tit:after {
     background: #2a80ef;
     height: 4px;
     margin: -11px auto;
-    left: 419px;
+    left: 0;
+    right: 0;
     bottom: 0;
 }
+
+
 
 .section-benefits.section-benefits-16{
   padding:0 0 30px !important;
@@ -273,6 +279,35 @@ p.checkpara {
     width: 512px;
 }
 
+@media(max-width:768px){
+  h3.change-tit {
+  font-size:56px !important;
+  }
+  h3.change-tit:after{
+    width:600px;
+  }
+  .new-mar {
+    flex-direction: column !important;
+}
+.new-img-mo{
+  margin-bottom:2%;
+}
+.new-cont {
+    margin-left: 4%;
+}
+.benefitsflex-copy.responsiv{
+  flex-direction:column;
+}
+.mar-rig-ze {
+    margin-left: 32px;
+}
+.benefitsflex.benefitsflex-1.responsiv {
+    flex-direction: column-reverse;
+}
+.benefitsflex.benefitsflex-1.responsiv .check-marks {
+    margin-left: 5%;
+}
+}
 
 
 
@@ -288,8 +323,12 @@ p.checkpara {
     background: #2a80ef;
     height: 4px;
     margin: -4% auto;
-    left: 50px;
+    left: 0px;
+    right:0px;
     bottom: 0;
+}
+p.checkpara {
+    font-size: 24px !important;
 }
 }
 
@@ -309,8 +348,15 @@ h3.change-tit:after {
     background: #2a80ef;
     height: 4px;
     margin: -4% auto;
-    left: 33px;
+    left: 0px;
+    right:0px;
     bottom: 0;
+}
+.mar-rig-ze {
+    margin-left: 0;
+}
+.benefitsflex.benefitsflex-1.responsiv .check-marks {
+    margin-left: 0;
 }
 }
 
@@ -365,6 +411,12 @@ h3.new-h3 {
 
 .div-block-27 {
     width: 90%;
+}
+
+
+.fa-circle:before, .fa-circle-dot:before, .fa-dot-circle:before {
+    font-size: 18px;
+    color: #fff;
 }
 </style>
 
@@ -424,8 +476,8 @@ h3.new-h3 {
             <!-- <div class="slide-nav-3 w-slider-nav w-round"></div> -->
           <!-- </div>
         </div> -->
-        <div class="new-img-mo"><img src="images/webp/Rectangle-13-demo.png" alt="mobile"></div>
-        <div class="new-img-re"><img src="images/webp/Rectangle-12-demo.png" alt="render"></div>
+        <div class="new-img-mo"><img src="images/webp/Rectangle-12-demo.png" alt="mobile"></div>
+        <div class="new-img-re"><img src="images/webp/Rectangle-13-demo.png" alt="render"></div>
       </div>
 
 
@@ -436,7 +488,7 @@ h3.new-h3 {
             <!-- <div class="div-block-7"></div> -->
           </div>
           <div class="check-marks new-check">
-            <div class="mark"><img src="images/webp/dot-1.png" loading="lazy" alt="CheckMark"></div>
+            <i class="fa-solid fa-circle-dot" style="margin-right:10px;"></i>
             <div class="div-block-26">
               <p class="checkpara size-ch">Video walkthrough of customer’s personalized interiors</p>
               <!-- <p class="bulletpoint">- For e.g <span class="text-span-3">Rs 5k/image</span> in India.</p>
@@ -444,14 +496,14 @@ h3.new-h3 {
             </div>
           </div>
           <div class="check-marks new-check">
-            <div class="mark"><img src="images/webp/dot-1.png" loading="lazy" alt="CheckMark"></div>
+            <i class="fa-solid fa-circle-dot" style="margin-right:10px;"></i>
             <div class="div-block-26">
               <p class="checkpara size-ch">Photo realistic rendered images of customer’s personalized interiors.</p>
               <!-- <p class="bulletpoint">- Price in India (<span class="text-span-3">Rs 50k</span> for 1 minute video)</p> -->
             </div>
           </div>
           <div class="check-marks new-check">
-            <div class="mark"><img src="images/webp/dot-1.png" loading="lazy" alt="CheckMark"></div>
+            <i class="fa-solid fa-circle-dot" style="margin-right:10px;"></i>
             <div class="div-block-26">
               <p class="checkpara size-ch">Rendered images and video offer new revenue streams</p>
               <!-- <p class="bulletpoint">- On an average <span class="text-span-3">500k</span> new houses sold per in the USA</p> -->
@@ -498,11 +550,11 @@ h3.new-h3 {
             <!-- <div class="div-block-7"></div> -->
           </div>
           <div class="check-marks">
-            <div class="mark"><img src="images/webp/dot-1.png" loading="lazy" alt="CheckMark"></div>
+            <i class="fa-solid fa-circle-dot" style="margin-right:10px;"></i>
             <p class="checkpara">Leverage digital-twin of customer premises</p>
           </div>
           <div class="check-marks">
-            <div class="mark"><img src="images/webp/dot-1.png" loading="lazy" alt="CheckMark"></div>
+            <i class="fa-solid fa-circle-dot" style="margin-right:10px;"></i>
             <p class="checkpara">Offer services to renovation market</p>
           </div>
         
@@ -521,16 +573,16 @@ h3.new-h3 {
             <!-- <div class="div-block-7"></div> -->
           </div>
           <!-- <div class="check-marks">
-            <div class="mark"><img src="images/webp/dot-1.png" loading="lazy" alt="CheckMark"></div>
+            <i class="fa-solid fa-circle-dot" style="margin-right:10px;"></i>
             <p class="checkpara text-white">Customer designs space using 3D reconstructed space from pictures</p>
           </div> -->
           <div class="check-marks">
-            <!-- <div class="mark"><img src="images/webp/dot-1.png" loading="lazy" alt="CheckMark"></div> -->
-            <div class="mark"><img src="images/webp/dot-1.png" loading="lazy" alt="CheckMark"></div>
+            <!-- <i class="fa-solid fa-circle-dot" style="margin-right:10px;"></i> -->
+            <i class="fa-solid fa-circle-dot" style="margin-right:10px;"></i>
             <p class="checkpara text-white">Enables eCommerce Merchants to sell in bulk.</p>
           </div>
           <!-- <div class="check-marks">
-            <div class="mark"><img src="images/webp/dot-1.png" loading="lazy" alt="CheckMark"></div>
+            <i class="fa-solid fa-circle-dot" style="margin-right:10px;"></i>
             <p class="checkpara text-white">Save time &amp; money for your customers</p>
           </div> -->
         </div>

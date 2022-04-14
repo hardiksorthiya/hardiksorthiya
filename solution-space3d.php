@@ -213,7 +213,7 @@ img.my-img-1 {
 }
 .carousel-caption {
     position: absolute;
-    left: 40.3%;
+    left: 75%;
     height: 14%;
     right: 0;
     bottom: 2px;
